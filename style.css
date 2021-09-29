@@ -1,0 +1,56 @@
+body {
+  background: gray;
+}
+
+.empezar {
+  background: #99224a;
+  color: white;
+  background-color: #99224a;
+  border-radius: 45px 45px 45px 45px;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+}
+
+.superior {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mazo {
+  display: flex;
+}
+
+.casa {
+  display: flex;
+}
+
+.inferior {
+  display: flex;
+  justify-content: center;
+}
+
+.espacio-carta {
+  border: 2px solid black;
+  width: 97px;
+  height: 151px;
+  margin: 10px;
+  position: relative;
+}
+
+.carta {
+  position: absolute;
+  border: 1px solid #888;
+  border-radius: 7px;
+  height: 153px;
+}
+
+.carta-mazo {
+  position: relative;
+  height: 100px;
+  z-index: 1;
+}
+
+.pila-inicial {
+  position: absolute;
+}
